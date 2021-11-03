@@ -82,8 +82,8 @@ body {
 }
 .arrow {
     position: absolute;
-    left: 1em;
-    top: -1em;
+    left: 1.7em;
+    top: -0.9em;
     font-size: 2em;
     color: #fff9f4;
 }
@@ -106,16 +106,29 @@ body {
     color: #8a374b;
 }
 .icons {
-    height: 26vh;
     background-color: #feebe4;
     border: 1px solid #e3778e;
     border-radius: 0.3em;
-    width: 6vw;
-    bottom: 6em;
+    width: 5vw;
+    bottom: 3em;
     left: 1em;
-    padding: 1.5em 0.5em 1em 0.5em ;
 }
-
+.icons .fa-times {
+    margin-left: 5em;
+    font-size: 0.7em;
+    color: #9e3160;
+    vertical-align: top;
+    margin-top: 0.2em;
+}
+.technos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.technos img {
+    margin-bottom: 0.5em;
+}
 .skills {
     width: 20vw;
     background-color: #fff9f4;
@@ -162,7 +175,8 @@ body {
     background-color: #fec5c4;
     padding: 1em;
     border: 1px solid #9e3160;
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 10em;
 }
 .dots {
     display: flex;
@@ -200,7 +214,6 @@ body {
     margin-top: -2em;
     border: 1px solid #9e3160;
     border-radius: 0.2em;
-    margin-bottom: 2em;
 }
 .subtitle1 {
     border-bottom: 1px solid #9e3160;
@@ -241,6 +254,61 @@ body {
     position: relative;
     margin-right: 0.3em;
 }
+.languages {
+    background-color: #feebe4;
+    border: 1px solid #e3778e;
+    border-radius: 0.3em;
+    position: absolute;
+    bottom: 0;
+    left: 5em;
+    width: 25vw;
+    padding: 0 1em 0.5em 1em;
+}
+.languages h6{
+    font-size: 0.8em;
+    margin-bottom: 0;
+    color: #9e3160;
+}
+.languages p{
+    font-size: 0.8em;
+    margin: 0;
+    color: #9e3160;
+}
+.subtitle4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fec5c4;
+    border-radius: 0.3em;
+    width: 100%;
+    padding: 0.5em 1em 0.3em 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.subtitle4 i {
+    color: #9e3160;
+}
+.languageskills {
+    display: flex;
+    justify-content: space-between;
+}
+.partone {
+    width: 45%;
+}
+.parttwo {
+    width: 40%;
+}
+.level {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.level .fa-circle {
+    font-size: 0.6em;
+    color: #944f63;
+}
+.minus {
+    color: #fec5c4!important;
+}
 .middle {
     height: 35vh;
     background-color: #fcc6c6;
@@ -274,3 +342,4 @@ body {
     color: #e3778e;
     font-size: 1.5em;
 }
+
