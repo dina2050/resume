@@ -6,6 +6,7 @@ body {
     width: 50%;
     border-radius: 0.3em;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 .content {
     padding: 1em;
@@ -46,11 +47,23 @@ body {
 }
 .profile {
     background-color: #e3778e;
-    height: 50vh;
+    height: 53vh;
     padding: 1em 1em 0 1em ;
     width: 94%;
     margin-left: 3.2em;
     margin-top: -1em;
+}
+.title {
+    background-color: #fec5c4;
+    padding: 0.5em 0.7em 0.1em 0.7em;
+    border-radius: 0.3em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.title h5 {
+    margin-left: auto;
+    color: #8a374b;
+    font-size: 1em;
 }
 .info {
     color: #f8ece7;
@@ -64,6 +77,16 @@ body {
 }
 .secondpart img {
     border-radius: 50%;
+}
+.photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
+    background-image: url("images/photo_cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 47% 50%;
+    margin-right: 1em;
 }
 .marginLeft {
     margin-left: 0.1em;
@@ -83,20 +106,9 @@ body {
 .arrow {
     position: absolute;
     left: 1.7em;
-    top: -0.9em;
+    top: -1.3rem;
     font-size: 2em;
     color: #fff9f4;
-}
-.title {
-    background-color: #fec5c4;
-    padding: 0.5em 0.7em 0.1em 0.7em;
-    border-radius: 0.3em;
-    align-items: center;
-}
-.title h5 {
-    margin-left: auto;
-    color: #8a374b;
-    font-size: 1em;
 }
 .expand-icon {
     margin-left: auto;
@@ -110,7 +122,7 @@ body {
     border: 1px solid #e3778e;
     border-radius: 0.3em;
     width: 5vw;
-    bottom: 3em;
+    bottom: 4.5em;
     left: 1em;
 }
 .icons .fa-times {
@@ -187,7 +199,7 @@ body {
     font-size: 0.5em;
 }
 .subtitle3 {
-    width: 100%;
+    width: 21vw;
     display: flex;
     background-color: #fff9f4;
     border-radius: 0.3em;
@@ -207,6 +219,9 @@ body {
     margin: 0;
     font-size: 0.8rem;
     color: #b56487;
+}
+.z-index {
+    z-index: 1;
 }
 .experiences {
     background-color: #fef39e;
@@ -276,16 +291,13 @@ body {
 }
 .subtitle4 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #fec5c4;
     border-radius: 0.3em;
     width: 100%;
-    padding: 0.5em 1em 0.3em 1em;
+    padding: 0.5em 1em 0.5em 1em;
     margin-bottom: 1em;
     margin-top: 1em;
-}
-.subtitle4 i {
-    color: #9e3160;
 }
 .languageskills {
     display: flex;
